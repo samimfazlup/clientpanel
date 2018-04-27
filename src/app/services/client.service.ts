@@ -42,7 +42,7 @@ export class ClientService {
         balance: (client.balance) ? client.balance: ""
       });
     }
-    deleteClient(id: string){
+    deleteClient(){
       return this.clientRef.remove();
     }
 
